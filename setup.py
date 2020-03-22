@@ -11,7 +11,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/spkelle2/diet",
-    packages=['diet', 'test_diet'],
+    packages=['diet', 'diet.schemas', 'diet.solve', 'test_diet'],
     install_requires=[
         'ticdat',
     ],
